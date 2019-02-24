@@ -15,6 +15,9 @@
 		8EC073D0221C00E70037E0A9 /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC073CF221C00E70037E0A9 /* DoubleExtension.swift */; };
 		8EC073D2221C05630037E0A9 /* OrdinaryLeastSquares.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC073D1221C05630037E0A9 /* OrdinaryLeastSquares.swift */; };
 		8EC073D4221C08690037E0A9 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC073D3221C08690037E0A9 /* Matrix.swift */; };
+		8EF9D4982222EFDF007EF0F1 /* FunctionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF9D4972222EFDF007EF0F1 /* FunctionHelper.swift */; };
+		8EF9D49A222303D7007EF0F1 /* DeterminationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF9D499222303D7007EF0F1 /* DeterminationHelper.swift */; };
+		8EF9D49C222311AD007EF0F1 /* Quantil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF9D49B222311AD007EF0F1 /* Quantil.swift */; };
 		D430FC86730D775B5851393D /* Pods_lab2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2687D03CC3CD6B331646C487 /* Pods_lab2.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +35,9 @@
 		8EC073CF221C00E70037E0A9 /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
 		8EC073D1221C05630037E0A9 /* OrdinaryLeastSquares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdinaryLeastSquares.swift; sourceTree = "<group>"; };
 		8EC073D3221C08690037E0A9 /* Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+		8EF9D4972222EFDF007EF0F1 /* FunctionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionHelper.swift; sourceTree = "<group>"; };
+		8EF9D499222303D7007EF0F1 /* DeterminationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeterminationHelper.swift; sourceTree = "<group>"; };
+		8EF9D49B222311AD007EF0F1 /* Quantil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quantil.swift; sourceTree = "<group>"; };
 		E1804DAC5B1374D03010DD2D /* Pods-lab2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lab2.release.xcconfig"; path = "Target Support Files/Pods-lab2/Pods-lab2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,6 +74,7 @@
 		8EC073BC221BFA420037E0A9 /* lab2 */ = {
 			isa = PBXGroup;
 			children = (
+				8EF9D49B222311AD007EF0F1 /* Quantil.swift */,
 				8EC073BD221BFA420037E0A9 /* AppDelegate.swift */,
 				8EC073BF221BFA420037E0A9 /* MainViewController.swift */,
 				8EC073C1221BFA430037E0A9 /* Assets.xcassets */,
@@ -78,6 +85,8 @@
 				8EC073CF221C00E70037E0A9 /* DoubleExtension.swift */,
 				8EC073D1221C05630037E0A9 /* OrdinaryLeastSquares.swift */,
 				8EC073D3221C08690037E0A9 /* Matrix.swift */,
+				8EF9D4972222EFDF007EF0F1 /* FunctionHelper.swift */,
+				8EF9D499222303D7007EF0F1 /* DeterminationHelper.swift */,
 			);
 			path = lab2;
 			sourceTree = "<group>";
@@ -220,10 +229,13 @@
 			files = (
 				8EC073D2221C05630037E0A9 /* OrdinaryLeastSquares.swift in Sources */,
 				8EC073D0221C00E70037E0A9 /* DoubleExtension.swift in Sources */,
+				8EF9D49C222311AD007EF0F1 /* Quantil.swift in Sources */,
 				8EC073D4221C08690037E0A9 /* Matrix.swift in Sources */,
 				8EC073C0221BFA420037E0A9 /* MainViewController.swift in Sources */,
 				8EC073BE221BFA420037E0A9 /* AppDelegate.swift in Sources */,
+				8EF9D4982222EFDF007EF0F1 /* FunctionHelper.swift in Sources */,
 				8EC073CE221BFC980037E0A9 /* Serlection.swift in Sources */,
+				8EF9D49A222303D7007EF0F1 /* DeterminationHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
